@@ -5,4 +5,9 @@ return ("Happy holidays!")
 function happyHolidaysTo(you) {
   return (`Happy holidays, ${you}!`)
 }
-function happyCustomHolidayTo(Halloween, you) 
+function happyCustomHolidayTo(Halloween, you) {
+  return (`Happy ${Halloween}, ${you}!`)
+}
+function holidayCountdown(Halloween, 178) {
+  return (`It's ${100 + 78} days until ${Halloween}!`)
+}
