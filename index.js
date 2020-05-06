@@ -8,3 +8,6 @@ function happyHolidaysTo(you) {
 function happyCustomHolidayTo(Halloween, you) {
   return (`Happy ${Halloween}, ${you}!`)
 }
+function holidayCountdown(Halloween, days) {
+  return (`It's ${days} until ${Halloween}!`)
+}
